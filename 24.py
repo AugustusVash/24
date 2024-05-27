@@ -43,21 +43,38 @@ def get_image_as_base64(path):
     with open(path, "rb") as image_file:
         return base64.b64encode(image_file.read()).decode()
 
+# # 图片路径
+# card_images = {
+#     "A": "/content/Spade_A.png",
+#     "2": "/content/Spade_2.png",
+#     "3": "/content/Spade_3.png",
+#     "4": "/content/Spade_4.png",
+#     "5": "/content/Spade_5.png",
+#     "6": "/content/Spade_6.png",
+#     "7": "/content/Spade_7.png",
+#     "8": "/content/Spade_8.png",
+#     "9": "/content/Spade_9.png",
+#     "10": "/content/Spade_10.png",
+#     "J": "/content/Spade_J.png",
+#     "Q": "/content/Spade_Q.png",
+#     "K": "/content/Spade_K.png"
+# }
+
 # 图片路径
 card_images = {
-    "A": "/content/Spade_A.png",
-    "2": "/content/Spade_2.png",
-    "3": "/content/Spade_3.png",
-    "4": "/content/Spade_4.png",
-    "5": "/content/Spade_5.png",
-    "6": "/content/Spade_6.png",
-    "7": "/content/Spade_7.png",
-    "8": "/content/Spade_8.png",
-    "9": "/content/Spade_9.png",
-    "10": "/content/Spade_10.png",
-    "J": "/content/Spade_J.png",
-    "Q": "/content/Spade_Q.png",
-    "K": "/content/Spade_K.png"
+    "A": "Spade_A.png",
+    "2": "Spade_2.png",
+    "3": "Spade_3.png",
+    "4": "Spade_4.png",
+    "5": "Spade_5.png",
+    "6": "Spade_6.png",
+    "7": "Spade_7.png",
+    "8": "Spade_8.png",
+    "9": "Spade_9.png",
+    "10": "Spade_10.png",
+    "J": "Spade_J.png",
+    "Q": "Spade_Q.png",
+    "K": "Spade_K.png"
 }
 
 # 转换为Base64

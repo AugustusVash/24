@@ -1,5 +1,4 @@
-streamlit==1.35.0
-itertools
+streamlit==1.33.0
 random
 st_clickable_images==0.0.3
 base64
